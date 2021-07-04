@@ -21,11 +21,11 @@ def draw():
 
     if pause_switch == True:
         screen.fill((0,0,0))
-        screen.draw.text('Pause',(150,250),color = (71,255,14),fontsize = 100)
+        screen.draw.text('Pause',(300,300),color = (71,255,14),fontsize = 100)
 
     if gem_obj.top > 600:
         screen.fill((0,0,0))
-        screen.draw.text('Game Over',(150,250),color = 'red',fontsize = 100)
+        screen.draw.text('Game Over',(200,300),color = 'red',fontsize = 100)
 
 def update():
     global pause_switch
